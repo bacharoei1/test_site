@@ -1,0 +1,46 @@
+body{
+
+  background: #666;
+  color: lightblue;
+  font-family: Tahoma;
+  line-height: 1.5em;
+
+}
+
+.button {
+  background-color: white;
+  font-size: 16px;
+  display: inline-block;
+  color: black;
+  border: 2px solid #008CBA;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+#cont {
+  background: #333333;
+  width: 960px;
+  margin: 30px auto;
+  overflow: hidden;
+  padding: 10px;
+
+}
+
+footer{
+  text-align: center;
+  background: #34ff71;
+  color: #3540ff;
+  float: bottom;
+  padding: 10px;
+  width: 960px;
+  margin: 30px auto;
+
+}
+

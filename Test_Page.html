@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lottery Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="controller/controller.js"></script>
+   <script src="service/service.js"></script>
+
+
+</head>
+<body>
+
+  <div id="cont">
+    <header>
+    <h1>Lottery Page</h1>
+    </header>
+
+    <div ng-app="lottery" ng-controller="ctrl">
+      <button class="button" ng-click="function1()" >Click Me!</button>
+
+      <p>{{myRes}}</p>
+      <button class="button" ng-click="init()" >clear!</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; | Zerto IL | Roei Bachar
+
+
+  </footer>
+
+
+
+
+</body>
+</html>
